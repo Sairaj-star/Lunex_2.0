@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07050a"><title>LUNEX 2.0 — A Private Digital World</title>
+<link rel="stylesheet" href="/css/lunex.css"></head>
+<body>
+<div class="ambient"></div><div class="grain"></div>
+<header class="nav"><a class="brand" href="/"><span class="brand-mark">☾</span><span>LUNEX<small>PRIVATE DIGITAL WORLD</small></span></a>
+<nav><button data-go="world">World</button><button data-go="suites">Suites</button><button data-go="features">Features</button><button id="night">After Dark</button><a href="/owner.html">Owner</a></nav></header>
+<main>
+<section class="hero">
+<div class="hero-copy"><span class="eyebrow">LUNEX 2.0 · ENTER WITHOUT LEAVING YOUR PRIVACY</span>
+<h1>Close the door.<br><em>Open the world.</em></h1>
+<p>A private digital hotel with 500 live suites, anonymous guests, real-time conversation, cinema, games, music, library, vault and a concierge designed around privacy.</p>
+<div class="actions"><button class="primary" id="enter">Enter the Lobby <b>↗</b></button><button class="secondary" data-go="world">Explore the World</button></div>
+<div class="proof"><span>500 SUITES</span><span>REAL-TIME</span><span>PRIVATE BY DESIGN</span></div></div>
+<div class="hero-art"><div class="portal"><div class="portal-inner"><span>∞</span></div></div><div class="ring a"></div><div class="ring b"></div><div class="ring c"></div><div class="floating-card"><small>LIVE FLOOR</small><b>500</b><span>PRIVATE SUITES</span></div></div>
+</section>
+
+<section id="world" class="section"><div class="section-title"><div><span class="eyebrow">THE HOTEL</span><h2>One world.<br><em>Many doors.</em></h2></div><p>Lunex turns communication into a place you can enter. The lobby is public, the suite is private, and the server decides who belongs where.</p></div>
+<div class="cards">
+<article class="card tall"><span>01</span><div><i>◌</i><h3>Reception</h3><p>Live suite availability, secure booking and a cinematic entrance.</p></div></article>
+<article class="card"><span>02</span><div><i>◐</i><h3>Private Suites</h3><p>500 rooms with capacity, keys and anonymous guests.</p></div></article>
+<article class="card"><span>03</span><div><i>◈</i><h3>Cinema</h3><p>Share supported direct video playback with your suite.</p></div></article>
+<article class="card"><span>04</span><div><i>✦</i><h3>Arcade</h3><p>Real-time Tic-Tac-Toe, with more games ready to grow.</p></div></article>
+<article class="card wide"><span>05</span><div><i>⌁</i><h3>Library · Vault · Lounge</h3><p>Keep useful links, private notes and a social layer without turning private identity into public identity.</p></div></article>
+<article class="card"><span>06</span><div><i>☾</i><h3>LUNA</h3><p>A privacy-aware concierge that can explain the world without reading private chats.</p></div></article>
+</div></section>
+
+<section id="suites" class="section suites"><div class="section-title"><div><span class="eyebrow">LIVE FLOOR</span><h2>Choose your<br><em>suite.</em></h2></div><div class="live-label"><span></span> Server synchronized</div></div>
+<div id="rooms" class="room-grid"></div></section>
+
+<section id="features" class="section security"><div class="security-panel"><div><span class="eyebrow">PRIVATE BY ARCHITECTURE</span><h2>Your identity<br><em>stays yours.</em></h2><p>Guests are represented by anonymous room labels. Phone numbers, email addresses and authentication secrets are not broadcast to other guests. Room membership, booking and media access are validated server-side.</p><button class="secondary" id="privacy">How privacy works</button></div><div class="orb"><span>PRIVATE</span><b>⌁</b></div></div></section>
+
+<section class="section cta"><span class="eyebrow">LUNEX 2.0</span><h2>The door is<br><em>waiting.</em></h2><button class="primary" id="enter2">Enter Lunex <b>↗</b></button></section>
+</main>
+<div id="modal" class="modal hidden"><div class="backdrop"></div><div id="modalBox" class="modal-box"></div></div>
+<script src="/socket.io/socket.io.js"></script><script src="/js/index2.js"></script>
+</body></html>
